@@ -1,4 +1,4 @@
-3##### 安装
+##### 安装
 ###### 1.在云服务器下载redis-7.0.12.tar.gz
 `wget http://download.redis.io/releases/redis-7.0.12.tar.gz`
 ###### 2.新建opt文件夹进入
