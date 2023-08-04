@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"type":"text","text":"1 2 3 4 5 6","id":"3b105d8618350742","x":-125,"y":-30,"width":250,"height":60,"color":"1"},
+		{"type":"text","text":" 6 5 4 3 2 1","id":"779e8e6ae8e95632","x":-121,"y":195,"width":250,"height":60},
+		{"type":"file","file":"RedisNotes/Redis/P11-P27 Redis十大数据类型/P17 Redis10大类型之List.md","id":"0b6191922103dc63","x":240,"y":-370,"width":400,"height":400},
+		{"id":"501e1747478a2c5e","x":-122,"y":349,"width":250,"height":60,"type":"text","text":"P17 Redis10大类型之List"}
+	],
+	"edges":[
+		{"id":"331674675f1bb8e5","fromNode":"3b105d8618350742","fromSide":"bottom","toNode":"779e8e6ae8e95632","toSide":"top","label":"其次是元素\"2\""},
+		{"id":"bd9a892fdc4adf0d","fromNode":"3b105d8618350742","fromSide":"left","toNode":"779e8e6ae8e95632","toSide":"left","label":"首先放元素\"1\""},
+		{"id":"69d959a28551f21b","fromNode":"3b105d8618350742","fromSide":"right","toNode":"779e8e6ae8e95632","toSide":"right","label":"最后依次放入\"3 4 5 6\""},
+		{"id":"ab443ea6965133bb","fromNode":"0b6191922103dc63","fromSide":"top","toNode":"3b105d8618350742","toSide":"top"},
+		{"id":"8daa7871a5b54490","fromNode":"779e8e6ae8e95632","fromSide":"bottom","toNode":"501e1747478a2c5e","toSide":"top"}
+	]
+}
