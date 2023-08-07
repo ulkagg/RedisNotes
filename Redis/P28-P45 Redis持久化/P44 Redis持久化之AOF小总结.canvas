@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"23f0ad0c4173a653","x":-44,"y":-151,"width":250,"height":60,"type":"text","text":"服务器"},
+		{"id":"b63421c4c101edbf","x":-460,"y":-151,"width":250,"height":60,"type":"text","text":"客户端"},
+		{"id":"37d74cb35d3fa5f8","x":520,"y":-151,"width":250,"height":60,"type":"text","text":"AOF文件"}
+	],
+	"edges":[
+		{"id":"9e1d6cbbe2692d1d","fromNode":"b63421c4c101edbf","fromSide":"right","toNode":"23f0ad0c4173a653","toSide":"left","label":"命令请求"},
+		{"id":"8185b8255676c176","fromNode":"23f0ad0c4173a653","fromSide":"right","toNode":"37d74cb35d3fa5f8","toSide":"left","label":"网络协议格式\n的命令内容"}
+	]
+}

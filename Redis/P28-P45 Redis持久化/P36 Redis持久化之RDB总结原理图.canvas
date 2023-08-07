@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"98ca041c97251817","x":-280,"y":-40,"width":250,"height":60,"type":"text","text":"内存中的数据对象"},
+		{"id":"f33853d839494d2f","x":5,"y":-40,"width":220,"height":60,"type":"text","text":"磁盘中的RDB文件"}
+	],
+	"edges":[
+		{"id":"a52af13419bedd20","fromNode":"f33853d839494d2f","fromSide":"bottom","toNode":"98ca041c97251817","toSide":"bottom","label":"rdbLoad"},
+		{"id":"556203eaa8ef6ed9","fromNode":"98ca041c97251817","fromSide":"top","toNode":"f33853d839494d2f","toSide":"top","label":"rdbSave"}
+	]
+}
